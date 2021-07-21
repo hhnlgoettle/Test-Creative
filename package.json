@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "serve": "gulp http:serve",
-    "deploy": "rsync -aP --rsync-path=\"mkdir -p /home/ira/cdn/www/testad/ && rsync\" www/index.html ira@trustmeimansoftware.engineer:/home/ira/cdn/www/testad/index.html"
+    "deploy": "rsync -aP --rsync-path=\"mkdir -p /home/ira/cdn/www/testad/ && rsync\" www/ ira@trustmeimansoftware.engineer:/home/ira/cdn/www/testad/"
   },
   "author": "Luca Göttle <lgoettle@stud.hs-heilbronn.de>",
   "dependencies": {},

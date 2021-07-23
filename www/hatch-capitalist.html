@@ -59,9 +59,12 @@
         }
         @keyframes wiggle {
             0% { transform: rotate(0deg); }
+            60% { transform: rotate(0deg); }
+            65% { transform: rotate(10deg); }
+            75% { transform: rotate(-10deg); }
             80% { transform: rotate(0deg); }
             85% { transform: rotate(10deg); }
-            95% { transform: rotate(-8deg); }
+            95% { transform: rotate(-10deg); }
             100% { transform: rotate(0deg); }
         }
 
@@ -75,7 +78,7 @@
         </div>
 
         <div id="ad-content">
-            <div id="egg" class="flex-column" onclick="tap(event)">
+            <div id="egg" class="flex-column div-center" onclick="tap(event)">
                 <img id="egg-img" class="div-center img-egg" alt="Here you can see an egg" />
             </div>
         </div>

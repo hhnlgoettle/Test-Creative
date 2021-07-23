@@ -55,7 +55,16 @@
         .img-egg {
             max-height: 40vh;
             object-fit: contain;
+            animation: wiggle 2s infinite;
         }
+        @keyframes wiggle {
+            0% { transform: rotate(0deg); }
+            80% { transform: rotate(0deg); }
+            85% { transform: rotate(10deg); }
+            95% { transform: rotate(-8deg); }
+            100% { transform: rotate(0deg); }
+        }
+
     </style>
 </head>
 <body>
